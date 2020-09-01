@@ -1,6 +1,6 @@
 <?php
 
-namespace SantiGraviano\LaravelMercadoPago;
+namespace agusabas\LaravelMercadoPago;
 
 use Exception;
 
@@ -13,7 +13,7 @@ use Exception;
  */
 $GLOBALS["LIB_LOCATION"] = dirname(__FILE__);
 
-class MP {
+class MP2 {
 
     const version = "0.5.2";
 
@@ -31,12 +31,12 @@ class MP {
         }
 
         if ($i == 1) {
-            $this->ll_access_token = func_get_arg(0);
+            $this->ll_access_token = 'APP_USR-5799736776472294-082914-995c2af41586137ddcfe62fcebba3826-624995307';
         }
 
         if ($i == 2) {
-            $this->client_id = func_get_arg(0);
-            $this->client_secret = func_get_arg(1);
+            $this->client_id = '5799736776472294';
+            $this->client_secret = '0bRqFxe7tShSJQvWGGUwjeIpOPvCTPGK';
         }
     }
 
