@@ -22,8 +22,8 @@ class MercadoPagoServiceProvider extends ServiceProvider
 
 	public function register()
 	{
-		$this->app->singleton('MP', function(){
-			return new MP($this->mp_app_id, $this->mp_app_secret);
+		$this->app->singleton('MP2', function(){
+			return new MP2($this->mp_app_id, $this->mp_app_secret);
 		});
 	}
 }
