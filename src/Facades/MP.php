@@ -1,13 +1,13 @@
 <?php
 
-namespace SantiGraviano\LaravelMercadoPago\Facades;
+namespace agusabas\LaravelMercadoPago\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class MP extends Facade
+class MP2 extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'MP';
+        return 'MP2';
     }
 }
